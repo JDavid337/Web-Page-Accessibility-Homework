@@ -14,6 +14,6 @@ The following is a screen shot of the website:
 
 ![Web page features search engine, manager control, and social marketing tools](./assets/images/01-html-css-git-homework-demo.png)
 
-JDavid337.github.io/Web-Page-Accessibility-Homework
+https://jdavid337.github.io/Web-Page-Accessibility-Homework/
 
 https://github.com/JDavid337/Web-Page-Accessibility-Homework
