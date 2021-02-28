@@ -1,7 +1,23 @@
+# Web-Page-Accessibility-Homework
 
-# ADVANCED CSS PORTFOLIO HOMEWORK
-This is my portfolio page. It is designed to showcase web pages that I have designed and created, utilizing my skills honed at the DU bootcamp.  It also provides a short biography about me, along with two recent photos of me, one indoor and one outdoor.  The info in my bio and my pictures is to try to suggest duality and allude to front end / back end development.  At the footer of my web page is my contact information, designed as links so employers can easily get in contact with me, view my work in GitHub, and see my work history in LinkedIn.
+This web page is specifically designed to showcase the company's functionality as an optimized search engine website, manages what users see when they search for your website, and marketing control through social media.
 
-Beneath my initial photograph are three buttons designed to take the user to that section of the page that the buttons corralate with.  This is to provide seemless navigation throughout the page.  
+Header - The header provides a title of the company whose web page this is associated with.
 
-While my first assignment web page is the only work that I am showcasing now, as at this point it is the only web page that I have created, I inted to add more projects as time goes on.  
+Nav tags - Three links redirecting to separate sections of the web page explaining the three core purposes of the web page.
+
+Alt tags - Each image found within the web page is paired with corresponding alt tags to provide better front end web accessibility
+
+Aside - three other key functions of the website explaining into further detail the purpose of this company.
+
+The following is a screen shot of the website:
+
+![Web page features search engine, manager control, and social marketing tools](./assets/images/01-html-css-git-homework-demo.png)
+
+You can visit the live website here:
+
+https://jdavid337.github.io/Web-Page-Accessibility-Homework/
+
+The following is a link to the GitHub page hosting the HTML, CSS and README files
+
+https://github.com/JDavid337/Web-Page-Accessibility-Homework
