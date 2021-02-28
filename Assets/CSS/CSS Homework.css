@@ -1,41 +1,86 @@
+/* This is to make elements within the body naturally align to the left.
+*/
 html body {
     justify-content: left;
     background-color: teal;
 }
 
+/* This gives the header a different color without making it too "loud"
+*/
 header {
     background-color: darkslategray;
     outline: goldenrod 10px;
     min-height: 10vh;
 }
 
+/* I used Times New Roman as I find that font appealing and easy to read
+*/
 header h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-align: center;
-    text: honeydew;
 }
 
+/* Flex so that items within the nav tag will flex with the adjustment of the screen size
+*/
 nav {
     display:flex;
-    justify-content: flex-end;
 }
 
-ul {
-    inline-size: 50mm;
+/* Inserted buttons that guide users to their correlating sections of the web page
+*/
+.buttons {
+    text-align: center;
+    margin: top 50px;
 }
 
-aside {
+/* This is to give the buttons a little flare when you first look at them and when you click on them
+*/
+.btn{
+    border: 1px solid darkslategray;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+/* This gives the buttons their color
+*/
+.btn1,.btn2,.btn3{
+    color:darkgrey
+}
+
+/* This is what the buttons look like when you hover a cursor over them
+*/
+.btn1.hover,.btn2.hover,.btn3.hover{
+    color: darkkhaki;
+}
+
+/* I use Time New Romans for clarity purposes and professional style
+*/
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* This is to make full use out of both sides of the page
+*/
+h2, aside {
     background-color: lightslategray;
     width: fit-content;
     padding-left: 50rem;
-    float:right;
-    height: 100vh;
+    float:inline-start;
     font-style: italic;
     display: flex;
     justify-content: space-evenly;
 }
 
+/* This is for my contact info at the footer
+*/
 .text-center {
     text-align: center;
 }
