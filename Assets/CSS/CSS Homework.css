@@ -1,0 +1,42 @@
+html body {
+    justify-content: left;
+    background-color: teal;
+}
+
+header {
+    background-color: darkslategray;
+    outline: goldenrod 10px;
+    min-height: 10vh;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    text: honeydew;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+}
+
+ul {
+    inline-size: 50mm;
+}
+
+aside {
+    background-color: lightslategray;
+    width: fit-content;
+    padding-left: 50rem;
+    float:right;
+    height: 100vh;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-center {
+    text-align: center;
+}
+
